@@ -6,7 +6,11 @@
     <groupId>guru.spring</groupId>
     <artifactId>springframework-petclinic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>petclinic-model</module>
+        <module>petclinic-web</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>springframework-petclinic</name>
     <description>pet clinic software manager</description>
